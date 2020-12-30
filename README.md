@@ -11,3 +11,7 @@ You can open Cmd and type command<br><br>
 "java -jar spring-boot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=qa"<br><br>
 <b>For prod Environment</b><br>
 "java -jar spring-boot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod"<br><br>
+
+## Create One more Project and one more Git Repo for calling external application.properties file
+For Config Project Url "http://localhost:8888/application/default" and changes made in application.properties file.
+
