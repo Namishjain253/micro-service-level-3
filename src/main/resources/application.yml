@@ -1,0 +1,22 @@
+app:
+   name: Micro Service Level 3
+   description: Welcome to ${app.name}
+
+my:
+  greeting: Hello World
+  list.values: one,two,three
+
+#db:
+ #  connection: "{connectionString: 'http://___', username: 'foo', password: 'foo'}"
+  # host: 127.0.0.1
+  # port: 1200
+
+management.endpoints.web.exposure.include: "*"
+#spring.profiles.active: test
+
+#we need to specify where to config server is running
+spring.cloud.config.uri: http://localhost:8888
+
+spring:
+  application:
+    name: micro-service-level-3
