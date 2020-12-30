@@ -5,9 +5,9 @@ You can see that your localhost actuator Configprops by clicking "http://localho
 # Choosing Active Profile From Command Line Arguments
 
 You can open Cmd and type command<br><br>
-<b>For Test Environment</b>
+<b>For Test Environment</b><br>
 "java -jar spring-boot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=test"<br><br>
-<b>For QA Environment</b>
+<b>For QA Environment</b><br>
 "java -jar spring-boot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=qa"<br><br>
-<b>For prod Environment</b>
+<b>For prod Environment</b><br>
 "java -jar spring-boot-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod"<br><br>
